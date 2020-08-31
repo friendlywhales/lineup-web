@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>E9DACA65-8592-4D2D-A7C8-BBD1C2325EA4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M20.0208153,12.5355339 C21.9734367,10.5829124 21.9734367,7.41708755 20.0208153,5.46446609 C18.0681938,3.51184464 14.9023689,3.51184464 12.9497475,5.46446609 C12.5592232,5.85499039 11.9260582,5.85499039 11.5355339,5.46446609 C9.58291245,3.51184464 6.41708755,3.51184464 4.46446609,5.46446609 C2.51184464,7.41708755 2.51184464,10.5829124 4.46446609,12.5355339 L12.2426407,20.3137085 L20.0208153,12.5355339 Z M21.4350288,4.05025253 C24.1686989,6.78392257 24.1686989,11.2160774 21.4350288,13.9497475 L12.9497475,22.4350288 C12.5592232,22.8255531 11.9260582,22.8255531 11.5355339,22.4350288 L3.05025253,13.9497475 C0.316582489,11.2160774 0.316582489,6.78392257 3.05025253,4.05025253 C5.55908041,1.54142465 9.49848521,1.33507558 12.2426407,3.4312053 C14.9867962,1.33507558 18.926201,1.54142465 21.4350288,4.05025253 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_heart">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape-Copy" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="color/purple" mask="url(#mask-2)" fill="#B965C1">
+                <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

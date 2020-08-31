@@ -1,0 +1,37 @@
+@import '~@/assets/styles/base.scss';
+@import '~@/assets/styles/icons.scss';
+
+.tabbar-main {
+  height: 51px;
+  display: block;
+  background-color: rgba(250, 249, 249, .95);
+
+  @media #{$platform-pc} {
+    display: none;
+  }
+
+  &.page-login { display: none; }
+  &.page-signup { display: none; }
+  &.page-toppage { display: none; }
+  &.page-settings { display: none; }
+}
+
+.tabbar-main__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  .tabbar-main__item {
+    padding: 15px 0 20px;
+    flex-grow: 1;
+  }
+
+  .icon__upload {
+    transform: scale(1.25, 1.25);
+  }
+}
+
+.icon--inactive {
+  opacity: .25;
+}
+

@@ -1,0 +1,96 @@
+.icon {
+  display: inline-block;
+  background-size: contain !important;
+}
+.icon-warning {
+  background: url("~@/assets/styles/images/icon-warning.svg") no-repeat center center;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-anonymous {
+  background: url("~@/assets/styles/images/icon-anonymous.svg") no-repeat center center;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-heart {
+  background: url("~@/assets/styles/images/icon-heart.svg") no-repeat center center;
+  width: 16px;
+  height: 14.2px;
+
+  &.active {
+    background: url("~@/assets/styles/images/icon-heart-full.svg") no-repeat center center;
+  }
+}
+
+.icon-bookmark {
+  background: url("~@/assets/styles/images/icon-bookmark.svg") no-repeat center center;
+  width: 24px;
+  height: 24px;
+
+  &.active {
+    background: url("~@/assets/styles/images/icon-bookmark-full.svg") no-repeat center center;
+  }
+}
+
+.icon-magnifier {
+  background: url("~@/assets/styles/images/icon-magnifier.svg") no-repeat center center;
+  width: 12px;
+  height: 12px;
+}
+
+.icon-ticket {
+  background: url("~@/assets/styles/images/icon-ticket.svg") no-repeat center center;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-people {
+  background: url("~@/assets/styles/images/icon-people.svg") no-repeat center center;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-squared-plus {
+  background: url("~@/assets/styles/images/icon-squared-plus.svg") no-repeat center center;
+  width: 20px;
+  height: 20px;
+
+  &.active {
+    background: url("~@/assets/styles/images/icon-squared-plus-active.svg") no-repeat center center;
+  }
+}
+.icon-home-solid {
+  background: url("~@/assets/styles/images/icon-home.svg") no-repeat center center;
+
+  &.active {
+    background: url("~@/assets/styles/images/icon-home-active.svg") no-repeat center center;
+  }
+}
+.icon-magnifier-solid {
+  background: url("~@/assets/styles/images/icon-magnifier-solid.svg") no-repeat center center;
+
+  &.active {
+    background: url("~@/assets/styles/images/icon-magnifier-solid-active.svg") no-repeat center center;
+  }
+}
+.icon-people-solid {
+  background: url("~@/assets/styles/images/icon-people.svg") no-repeat center center;
+
+  &.active {
+    background: url("~@/assets/styles/images/icon-people-active.svg") no-repeat center center;
+  }
+}
+
+.icon__tabbar {
+  display: block;
+  margin: 0 auto;
+  width: 20px !important;
+  height: 20px !important;
+  background-size: contain !important;
+}
+
+.icon-sad-face {
+  background: url("~@/assets/styles/images/icon-sad-face.svg") no-repeat center center;
+}

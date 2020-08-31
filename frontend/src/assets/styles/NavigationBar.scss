@@ -1,0 +1,156 @@
+@import './base.scss';
+@import './icons.scss';
+
+.navigation-bar-container {
+  position: relative;
+  width: 100%;
+
+  @media #{$platform-pc} {
+    width: $break-pc;
+  }
+
+  &.page-toppage { display: none; }
+  &.page-search { height: 48px; }
+  &.page-postdetail { height: 48px; }
+  &.page-notifications { height: 48px; }
+  &.page-editpost { display: none; }
+  &.page-home { height: 48px; }
+  &.page-upload { height: 48px; }
+  &.page-profile, &.page-userprofile { height: 48px; }
+  &.page-settings { height: 48px; }
+  &.collection-detail { height: 48px; }
+  &.wallet { height: 48px; }
+}
+
+.navigation-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 21;
+  height: 48px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 10px;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #ececec;
+
+  @media #{$platform-pc} {
+    width: $break-pc;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+.navigation-bar__default {
+  z-index: 20;
+}
+.navigation-bar__title {
+  text-align: center;
+  margin: 0 auto;
+}
+.navigation-bar__logo {
+  background: url("/static/img/lineup_logo.png") no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  margin: 0 auto;
+  color: transparent;
+  height: 24px;
+  width: 96px;
+}
+
+.search-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .search-form__input {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.0975);
+    padding: 8px 0 8px 39px;
+    width: 100%;
+    font-size: 0.75rem;
+    text-align: left;
+    background: #fff url("~@/assets/styles/images/icon-magnifier.svg") no-repeat left 11px center;
+
+    &:focus {
+      @include vendor-prefix(outline, 0);
+    }
+    @include vendor-prefix(border-radius, 30px);
+    @include placeholder {
+      text-align: left;
+    }
+  }
+  .search-form__button {
+    width: 3rem;
+    margin-left: 10px;
+    color: #9347a9;
+    font-size: 1.0rem;
+  }
+}
+
+.navigation-bar__search {
+  .search-form {
+    .search-form__button {
+      width: 3rem;
+      margin-left: 10px;
+    }
+  }
+}
+
+.navigation-bar__notifications {
+  .notification-tabmenu__list {
+    width: 100%;
+    display: flex;
+  }
+  .notification-tabmenu__item {
+    flex-grow: 1;
+    font-weight: bold;
+
+    .notification-tabmenu__link {
+      display: block;
+      padding: 8px 0;
+
+      &.notification-tabmenu__link--active {
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+}
+
+.navigation-bar__profile {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  .user-settings__button {
+    width: 2.5rem;
+    margin-left: 10px;
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+}
+
+
+.official-twitter {
+  background: url("/static/img/icon-twitter.png") no-repeat center center;
+  background-size: contain;
+  position: fixed;
+  right: 7px;
+  top: 7px;
+  z-index: 50;
+
+  .link {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+}
+

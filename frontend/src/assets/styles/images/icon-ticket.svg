@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>5CABE5D5-8309-4D20-9922-FED5DDB59436</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M18.40625,6.59375 L4.59375,6.59375 L4.59375,16.15625 L18.40625,16.15625 L18.40625,15.0560903 C16.6040937,14.798312 15.21875,13.2484382 15.21875,11.375 C15.21875,9.5015618 16.6040937,7.95168796 18.40625,7.69390971 L18.40625,6.59375 Z M18.9375,9.25 C17.7638949,9.25 16.8125,10.2013949 16.8125,11.375 C16.8125,12.5486051 17.7638949,13.5 18.9375,13.5 C19.3245551,13.5 19.6874408,13.3965186 20,13.2157128 L20,17.75 L3,17.75 L3,5 L20,5 L20,9.53428716 C19.6874408,9.35348143 19.3245551,9.25 18.9375,9.25 Z M12.046875,5.796875 L13.640625,5.796875 L13.640625,16.953125 L12.046875,16.953125 L12.046875,5.796875 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_offer-copy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="color/white" mask="url(#mask-2)" fill="#FFFFFF">
+                <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

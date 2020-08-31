@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="69" viewBox="0 0 68 69">
+    <defs>
+        <circle id="b" cx="33" cy="33" r="33"/>
+        <filter id="a" width="107.6%" height="109.1%" x="-3.8%" y="-2.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(1)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#CF6BBA" xlink:href="#b"/>
+        </g>
+        <text fill="#FFF" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="12" transform="translate(1)">
+            <tspan x="13" y="48">출석체크</tspan>
+        </text>
+        <g fill="#FFF">
+            <path fill-rule="nonzero" d="M41.695 12.2h-1.024v-1.956h-2.049V12.2H28.378v-1.956h-2.049V12.2h-1.024c-1.127 0-2.049.88-2.049 1.956V29.8c0 1.076.922 1.956 2.049 1.956h16.39c1.127 0 2.049-.88 2.049-1.956V14.156c0-1.076-.922-1.956-2.049-1.956zm0 17.6h-16.39V19.044h16.39V29.8zm0-12.711h-16.39v-2.933h16.39v2.933z"/>
+        </g>
+    </g>
+</svg>

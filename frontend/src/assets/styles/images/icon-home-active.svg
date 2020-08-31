@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>FB527F27-FEC9-4AB0-85FF-D9DF0A97524B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M5.63019932,10 L6,10 C6.55228475,10 7,10.4477153 7,11 L7,19 L17,19 L17,11 C17,10.4477153 17.4477153,10 18,10 L18.3698007,10 L12,4.33795495 L5.63019932,10 Z M5,12 L3,12 C2.0804829,12 1.64838051,10.8634846 2.33563616,10.2525907 L11.3356362,2.25259068 C11.7145222,1.91580311 12.2854778,1.91580311 12.6643638,2.25259068 L21.6643638,10.2525907 C22.3516195,10.8634846 21.9195171,12 21,12 L19,12 L19,20 C19,20.5522847 18.5522847,21 18,21 L6,21 C5.44771525,21 5,20.5522847 5,20 L5,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_home">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Path-3-Copy" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="color/purple" mask="url(#mask-2)" fill="#B965C1">
+                <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

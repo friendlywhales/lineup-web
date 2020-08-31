@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  lineupdb:
+    image: mysql:5.7
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    restart: always
+    environment:
+       MYSQL_ROOT_PASSWORD: 12345678!9
+    ports:
+      - 23306:3306
+
+  lineupredis:
+    image: redis:4.0.10
+    volumes:
+      - ./redis_data:/data
+    ports:
+      - 26379:6379

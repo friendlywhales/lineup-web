@@ -1,0 +1,32 @@
+
+.vue-dialog {
+  padding: 30px;
+
+  .dialog-content {
+    padding: 0;
+  }
+
+  .dialog-c-title {
+    font-size: 1.125rem;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .dialog-c-text {
+    font-size: 1.125rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  .vue-dialog-buttons {
+    font-size: 1.125rem;
+    border: none;
+    justify-content: flex-end;
+    padding-top: 70px;
+
+    .vue-dialog-button {
+      font-size: 1.125rem !important;
+      color: #ff3434;
+      height: auto;
+    }
+  }
+}

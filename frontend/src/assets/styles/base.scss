@@ -1,0 +1,58 @@
+
+//$platform-mobile: "screen and (min-width: 320px) and (max-width: 960px)";
+//$platform-pc: "screen and (min-width: 960px)";
+$platform-mobile: "screen and (min-width: 320px) and (max-width: 480px)";
+$platform-pc: "screen and (min-width: 480px)";
+
+$break-pc: 480px;
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+@mixin placeholder {
+  &::placeholder               {@content}
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
+
+@mixin round-edge($v, $h, $s) {
+  @include vendor-prefix(border-#{$v}-#{$h}-radius, #{$s});
+}
+
+/************************************
+//button styles
+************************************/
+
+.btn {
+  display: block;
+  @include vendor-prefix(border-radius, 8px);
+  font-size: 1.125rem;
+  padding: 4px 0;
+  box-sizing: border-box;
+  border: none;
+
+  &.btn__inline-block {
+    display: inline-block;
+  }
+
+  &:link { text-decoration: none; }
+  &:hover { text-decoration: none; }
+}
+
+%btn-inline-basic {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 9px 0;
+  color: #1e4d93;
+  background-color: #fff;
+  border: 1px solid #1e4d93;
+}
+

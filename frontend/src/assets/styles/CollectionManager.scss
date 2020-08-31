@@ -1,0 +1,140 @@
+@import './base.scss';
+
+.collection-manager {
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: flex-end;
+}
+.collection-manager__container {
+  background-color: #fff;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+.create-collection__container {
+  .manager-nav {
+    text-align: left;
+    margin: 0;
+    padding: 10px 20px;
+  }
+}
+.form__button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: #fff;
+  padding: 10px 40px;
+}
+  .manager-nav {
+    padding: 10px 0;
+    margin: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    position: relative;
+    text-align: right;
+
+    .manager-nav__title {
+      font-size: 1.0rem;
+      position: absolute;
+      z-index: 15;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .button-nav-aside {
+      font-size: 1.5rem;
+    }
+  }
+
+  .collection__guide {
+    padding: 30px;
+    box-sizing: border-box;
+
+    .guide__text {
+      line-height: 1.5rem;
+    }
+  }
+
+  .button__close {
+    border-bottom: 4px solid #000;
+    margin-bottom: 20px;
+  }
+
+.create-collection__form {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 0 0;
+
+  .form-control {
+    text-align: center;
+  }
+  .form__button {
+    width: 100%;
+    margin: 30px 0 0;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+
+    &.button__submit {
+      background-color: #5597ea;
+      color: #fff;
+    }
+  }
+  .form__input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    padding: 6px 8px;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .form__collection-image {
+    width: 80px;
+    height: 80px;
+    @include vendor-prefix(border-radius, 10px);
+  }
+}
+
+.collections__list {
+  width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding: 0 10px;
+
+  .collections__item {
+    margin: 10px 10px 0 10px;
+    box-sizing: border-box;
+    width: 100px;
+
+    &.collections__item--active {
+      .collections__item-image {
+        border: 2px solid rgba(0, 0, 0, .35);
+      }
+    }
+
+    .collections__item-name {
+      padding: 5px 0;
+      box-sizing: border-box;
+      width: 100%;
+      display: block;
+      overflow-x: hidden;
+    }
+    .collections__item-image {
+      display: block;
+      width: 100px;
+      height: 100px;
+      @include vendor-prefix(border-radius, 10px);
+
+      &.no-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(0, 0, 0, .6);
+        @include vendor-prefix(border-radius, 10px);
+
+        .icon {
+          transform: scale(2.0);
+        }
+      }
+    }
+  }
+}
