@@ -16,10 +16,10 @@ ALLOWED_HOSTS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': os.environ['LINEUP_DB_HOST'],
-        'NAME': 'lineupdb_staging',
-        'USER': 'lineup_prod',
-        'PASSWORD': os.environ['LINEUP_DB_PW'],
+        'HOST': os.environ[''],
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': os.environ[''],
         'OPTIONS': {
             'charset': 'utf8mb4',
         },
@@ -31,16 +31,16 @@ AWS_STORAGE_BUCKET_NAME = 'lineup-staging-user-assets'
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
-    'line-up.me',
-    'staging.line-up.me',
-    'staging-api.line-up.me',
+    '',
+    '',
+    '',
 )
 
 
 # celery settings---------------------------------------------------
 
-CELERY_BROKER_URL = 'redis://apiserver-redis.0dsmbe.ng.0001.apn2.cache.amazonaws.com:6379/1'
+CELERY_BROKER_URL = ''
 
-CELERY_RESULT_BACKEND = 'redis://apiserver-redis.0dsmbe.ng.0001.apn2.cache.amazonaws.com:6379/3'
+CELERY_RESULT_BACKEND = ''
 
-FRONTEND_PATH = '/var/www/beta-staging-frontned'
+FRONTEND_PATH = ''
