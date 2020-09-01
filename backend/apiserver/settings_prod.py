@@ -25,8 +25,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': os.environ['LINEUP_DB_HOST'],
-        'NAME': 'lineupdb',
-        'USER': 'lineup_prod',
+        'NAME': '',
+        'USER': '',
         'PASSWORD': os.environ['LINEUP_DB_PW'],
         'OPTIONS': {
             'charset': 'utf8mb4',
@@ -54,7 +54,7 @@ SESSION_COOKIE_DOMAIN = ".line-up.me"
 DEFAULT_USER_LEVEL = 'author'  # 6월 2일 only 전 한정.
 
 RAVEN_CONFIG = {
-    'dsn': 'https://2e223afe24314409b7c958f21d08216a:a0ce4485d3ba464b887b4d9fe70e449d@sentry.io/1225347',
+    'dsn': '',
     'release': raven.fetch_git_sha(os.path.abspath(os.pardir)),
 }
 
