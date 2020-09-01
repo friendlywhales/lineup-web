@@ -5,7 +5,7 @@ from corsheaders.defaults import default_headers
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = '_7xq0m%fbqswvpuu96xj+_ksf8d4_18px2(53thle0sw65&f@&'
+SECRET_KEY = ''
 
 DEBUG = True
 
@@ -70,9 +70,9 @@ WSGI_APPLICATION = 'apiserver.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lineupdb',
-        'USER': 'root',
-        'PASSWORD': '12345678!9',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'OPTIONS': {
             'charset': 'utf8mb4',
         },
